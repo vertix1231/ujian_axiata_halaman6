@@ -29,8 +29,9 @@ public class EditPostGistPage {
 
 	@FindBy(css = "#code-editor > div > pre")
 	private WebElement codeeditor;
-                   
-	@FindBy(css = "#edit_gist_114519030 > div > div.form-actions > button")
+	
+
+	@FindBy(xpath = "//div[@class='form-actions']/button")
 	private WebElement submitcreategistedit;
 
 	@FindBy(css = "#new_comment_field")

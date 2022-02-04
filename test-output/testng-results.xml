@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-04T14:54:11 ICT" name="Default suite" finished-at="2022-02-04T14:54:44 ICT" duration-ms="33407">
+  <suite started-at="2022-02-04T15:17:59 ICT" name="Default suite" finished-at="2022-02-04T15:18:24 ICT" duration-ms="24753">
     <groups>
     </groups>
-    <test started-at="2022-02-04T14:54:11 ICT" name="Default test" finished-at="2022-02-04T14:54:44 ICT" duration-ms="33407">
+    <test started-at="2022-02-04T15:17:59 ICT" name="Default test" finished-at="2022-02-04T15:18:24 ICT" duration-ms="24753">
       <class name="com.UjianAxiata.runtest.testgistgithub">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:11 ICT" name="setup" finished-at="2022-02-04T14:54:11 ICT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:17:59 ICT" name="setup" finished-at="2022-02-04T15:17:59 ICT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:11 ICT" name="springTestContextBeforeTestClass" finished-at="2022-02-04T14:54:11 ICT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:17:59 ICT" name="springTestContextBeforeTestClass" finished-at="2022-02-04T15:17:59 ICT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:11 ICT" name="springTestContextPrepareTestInstance" finished-at="2022-02-04T14:54:12 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="845" status="PASS">
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:17:59 ICT" name="springTestContextPrepareTestInstance" finished-at="2022-02-04T15:18:00 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:12 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T14:54:12 ICT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:00 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T15:18:00 ICT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="gotoWeblogin()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:12 ICT" name="gotoWeblogin" finished-at="2022-02-04T14:54:27 ICT" duration-ms="15007" status="PASS">
+        <test-method signature="gotoWeblogin()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:00 ICT" name="gotoWeblogin" finished-at="2022-02-04T15:18:10 ICT" duration-ms="10826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoWeblogin -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:27 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T14:54:27 ICT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:10 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T15:18:10 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:27 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T14:54:27 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:10 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T15:18:10 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="create_a_gist()[pri:1, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:27 ICT" name="create_a_gist" finished-at="2022-02-04T14:54:31 ICT" duration-ms="4187" status="PASS">
+        <test-method signature="create_a_gist()[pri:1, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:10 ICT" name="create_a_gist" finished-at="2022-02-04T15:18:13 ICT" duration-ms="3078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_a_gist -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:31 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T14:54:31 ICT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:13 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T15:18:13 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:31 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T14:54:31 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:13 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T15:18:13 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="seelist_of_gist()[pri:2, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:31 ICT" name="seelist_of_gist" finished-at="2022-02-04T14:54:33 ICT" duration-ms="1566" status="PASS">
+        <test-method signature="seelist_of_gist()[pri:2, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:13 ICT" name="seelist_of_gist" finished-at="2022-02-04T15:18:14 ICT" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seelist_of_gist -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:33 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T14:54:33 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:14 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T15:18:14 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,22 +97,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:33 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T14:54:33 ICT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.UjianAxiata.runtest.testgistgithub.delete_of_gist()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="delete_of_gist()[pri:3, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:33 ICT" name="delete_of_gist" finished-at="2022-02-04T14:54:35 ICT" duration-ms="2583" status="PASS">
+        <test-method signature="delete_of_gist()[pri:3, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:14 ICT" name="delete_of_gist" finished-at="2022-02-04T15:18:17 ICT" duration-ms="2463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_of_gist -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:35 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T14:54:35 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:14 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T15:18:14 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.UjianAxiata.runtest.testgistgithub.delete_of_gist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:17 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T15:18:17 ICT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:35 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T14:54:35 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:17 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T15:18:17 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,11 +134,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="edit_of_gist()[pri:4, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:35 ICT" name="edit_of_gist" finished-at="2022-02-04T14:54:40 ICT" duration-ms="4580" status="PASS">
+        <test-method signature="edit_of_gist()[pri:4, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:17 ICT" name="edit_of_gist" finished-at="2022-02-04T15:18:21 ICT" duration-ms="3599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edit_of_gist -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:40 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T14:54:40 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:21 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T15:18:21 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:40 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T14:54:40 ICT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:21 ICT" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T15:18:21 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,11 +160,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="logout_of_gist()[pri:5, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:40 ICT" name="logout_of_gist" finished-at="2022-02-04T14:54:44 ICT" duration-ms="4508" status="PASS">
+        <test-method signature="logout_of_gist()[pri:5, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:21 ICT" name="logout_of_gist" finished-at="2022-02-04T15:18:24 ICT" duration-ms="3267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout_of_gist -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:44 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T14:54:44 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:24 ICT" name="springTestContextAfterTestMethod" finished-at="2022-02-04T15:18:24 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@16c069df]" started-at="2022-02-04T14:54:44 ICT" name="springTestContextAfterTestClass" finished-at="2022-02-04T14:54:44 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.UjianAxiata.runtest.testgistgithub@452e19ca]" started-at="2022-02-04T15:18:24 ICT" name="springTestContextAfterTestClass" finished-at="2022-02-04T15:18:24 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->

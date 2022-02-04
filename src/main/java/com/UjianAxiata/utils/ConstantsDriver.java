@@ -7,9 +7,9 @@ public class ConstantsDriver {
 	public static final String BROWSER= "browser";
 	
 	//sesuaikan username github untuk gist nya :)
-	public static final String USERNAME= "";
+	public static final String USERNAME= "vertix1231";
 	//sesuaikan password github untuk gist nya :)
-	public static final String PASSWORD= "";
+	public static final String PASSWORD= "irsyad14129812";
 
 	public static final String URL="https://gist.github.com";
 	
