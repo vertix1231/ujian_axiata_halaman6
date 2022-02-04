@@ -17,7 +17,7 @@ public class EditPostGistPage {
 		PageFactory.initElements(driver, this);
 	}
                    
-	@FindBy(css = "#gist-pjax-container > div > div > div.col-9.col-md-9.col-12 > div:nth-child(3) > div.gist-snippet-meta.d-flex.flex-lg-row.flex-column.width-full > div > div.d-inline-block.px-lg-2.px-0 > span:nth-child(1) > a:nth-child(2)")
+	@FindBy(css = "#gist-pjax-container > div > div > div.col-9.col-md-9.col-12 > div:nth-child(2) > div.gist-snippet-meta.d-flex.flex-lg-row.flex-column.width-full > div > div.d-inline-block.px-lg-2.px-0 > span:nth-child(1) > a:nth-child(2)")
 	private WebElement selecteditemlistgist;
 	@FindBy(css = "#gist-pjax-container > div.gisthead.pagehead.pb-0.pt-3.mb-4 > div > div.mb-3.d-flex.px-3.px-md-3.px-lg-5 > ul > li:nth-child(1) > a")
 	private WebElement editgistselecteditem;
@@ -30,7 +30,7 @@ public class EditPostGistPage {
 	@FindBy(css = "#code-editor > div > pre")
 	private WebElement codeeditor;
                    
-	@FindBy(css = "#edit_gist_114518840 > div > div.form-actions > button")
+	@FindBy(css = "#edit_gist_114519030 > div > div.form-actions > button")
 	private WebElement submitcreategistedit;
 
 	@FindBy(css = "#new_comment_field")
@@ -39,7 +39,7 @@ public class EditPostGistPage {
 	@FindBy(css = "#partial-new-comment-form-actions > button")
 	private WebElement btnsubmitcomment;
 	
-	@FindBy(css="#gist-pjax-container > div.gisthead.pagehead.pb-0.pt-3.mb-4 > div > div.mb-3.d-flex.px-3.px-md-3.px-lg-5 > div > div > div.d-flex.flex-column.width-full > div.d-flex.flex-row.width-full > h1 > span.author > a")
+	@FindBy(css="#gist-pjax-container > div.gisthead.pagehead.pb-0.pt-3.mb-4 > div > div.mb-3.d-flex.px-3.px-md-3.px-lg-5 > ul > li:nth-child(1) > a")
 	private WebElement editassertsucces;
 	
 

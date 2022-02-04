@@ -6,10 +6,11 @@ public class ConstantsDriver {
 	public static final String FIREFOX= "Firefox";
 	public static final String BROWSER= "browser";
 	
-	
-	public static final String USERNAME= "vertix1231";
-	public static final String PASSWORD= "irsyad14129812";
-	public static final String EMAIL= "vertix1231141298121998@gmail.com";
+	//sesuaikan username github untuk gist nya :)
+	public static final String USERNAME= "";
+	//sesuaikan password github untuk gist nya :)
+	public static final String PASSWORD= "";
+
 	public static final String URL="https://gist.github.com";
 	
 	public static final String filenamecreate="testaja.java";

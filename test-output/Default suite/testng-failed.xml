@@ -6,17 +6,13 @@
       <class name="com.UjianAxiata.runtest.testgistgithub">
         <methods>
           <include name="logout_of_gist"/>
-          <include name="seelist_of_gist"/>
           <include name="springTestContextBeforeTestClass"/>
-          <include name="delete_of_gist"/>
           <include name="springTestContextBeforeTestMethod"/>
           <include name="edit_of_gist"/>
           <include name="springTestContextPrepareTestInstance"/>
           <include name="springTestContextAfterTestClass"/>
           <include name="springTestContextAfterTestMethod"/>
-          <include name="create_a_gist"/>
           <include name="setup"/>
-          <include name="gotoWeblogin"/>
         </methods>
       </class> <!-- com.UjianAxiata.runtest.testgistgithub -->
     </classes>
