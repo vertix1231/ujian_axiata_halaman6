@@ -1,0 +1,32 @@
+per step nya:
+1. As a user, I want to login to gist.github.com => LoginGistPage
+2. As a user, I want to create a gist=> CreatePostGistPage
+3. As a user, I want to see the list of gist’s =>ListGistUserPage
+4. As a user, I want to delete a gist => DeletePostGistPage
+5. As a user, I want to edit a gist => EditPostGistPage
+6. As a user, I want to logout from gist.github.com => LogoutGistPage
+
+
+1.	nDependency testing sebagai framework testin class, selenium sebagai alat untuk inspek web element yang akan di testing, spring seabgai file configuration penyimpananan data,maven,lombook sebagai dependency agar fungsi get/set otomatis,cucumber sebagai scenario pealporan test agar lebih teratur	 di pom
+ 
+2.	Menyiapkan instace driver browser yang akan digunakan pada keseluruhan program di src/main/java
+ 
+3.	Menyiapkan class untuk membaca file configurasi dan file framework.properties yang berisikan value suatu data/variable di src/main/java
+ 
+ 
+ 
+4.	Menyiapkan class constan driver untuk meyimpanan data/variable yang statis di src/main/java
+ 
+5.	Membuat class testing pada src/test/java untuk class khusus testing
+ 
+6.	Membuat class pages yaitu class tempat peneglompokan tiap halaman gist yang akan di testing
+yang berisi inspek webelement pada metode java yang telah dibuat
+ 
+7.	Deklassikan objek semua pages di class testing
+ 
+8.	Testing menggunakan testing sehingga buat annotasi pada tiap step tengan anootasi “test(priority=x)” dengan x merupakan angka yang menetukan metode testing mana yang akan di test terlebih dahulu
+ 
+9.	Jalankan testing class dengan testing dan berhasil
+
+github: https://github.com/vertix1231/ujian_axiata_halaman6
+
